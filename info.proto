@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package main;
+
+// The greeter service definition.
+service InfoServer {
+  // Sends a greeting
+  rpc SetInfo (InfoRequest) returns (InfoReply) {}
+}
+
+// The request message containing the user's name.
+message InfoRequest {
+  string name = 1;
+  int64 age = 2;
+  int64 height = 3;
+}
+
+// The response message containing the greetings
+message InfoReply {
+  bool success = 1;
+  string reason = 2;
+}
+
