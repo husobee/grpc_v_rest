@@ -15,5 +15,5 @@ ok      grpc_v_rest     2.991s
 
 [Read about it Here][blog]
 
-[blog]: 
+[blog]: http://husobee.github.io/golang/rest/grpc/2016/05/28/golang-rest-v-grpc.html
 
